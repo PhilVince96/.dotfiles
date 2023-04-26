@@ -1,0 +1,15 @@
+---
+version: 1.3.0
+commands:
+  - name: pg_start
+    namespace: default
+    tags:
+      - ""
+    command: pg_ctl -D /opt/homebrew/var/postgres start
+    description: Starts the local postgreSQL server.
+  - name: pg_stop
+    namespace: default
+    tags:
+      - ""
+    command: pg_ctl -D /opt/homebrew/var/postgres stop
+    description: Stops the local postgreSQL server.
