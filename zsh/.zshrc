@@ -1,0 +1,1 @@
+/Users/philipp/.config/zsh/.zprezto/runcoms/zshrc

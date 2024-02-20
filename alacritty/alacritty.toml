@@ -1,0 +1,41 @@
+import = [
+  "/Users/philipp/.config/alacritty/themes/catppuccin/catppuccin-frappe.toml",
+]
+working_directory = "None"
+
+[bell]
+animation = "EaseOutExpo"
+color = "#ffffff"
+duration = 50
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[cursor]
+blink_interval = 750
+blink_timeout = 5
+thickness = 0.15
+unfocused_hollow = true
+
+[cursor.style]
+blinking = "Off"
+shape = "Block"
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 20.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+
+[shell]
+program = "/opt/homebrew/bin/zellij"
+
+[window]
+decorations_theme_variant = "None"
+dynamic_title = true
+opacity = 0.8
+option_as_alt = "OnlyLeft"
+startup_mode = "SimpleFullscreen"
